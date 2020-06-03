@@ -1,0 +1,22 @@
+name: 'Create Standup Discussions'
+author: 'Swift <swift@mlh.io>'
+description: 'Create daily standup discussions for teams within a GitHub Organization.'
+branding:
+  icon: 'edit'
+  color: 'green'
+inputs:
+  filename:
+    description: 'The markdown template for the Standup discussion.'
+    required: false
+  team_slugs:
+    description: 'The GitHub team(s) to create the discussions under (comma-separated).'
+    required: true
+  organization:
+    description: 'The GitHub Organization of the team(s) to create the issues for.'
+    required: true
+outputs:
+  urls:
+    description: 'The list of URLs for created standup discussions'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
