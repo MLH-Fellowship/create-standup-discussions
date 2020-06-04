@@ -4,6 +4,8 @@ This GitHub Action can be used to create a standup discussion for teams within a
 GitHub Organization. Using the `schedule` event, you can trigger this daily,
 weekly, or on whatever schedule makes sense for your teams.
 
+![Example Standup Discussion](example-standup-discussion.jpg)
+
 ## Setup
 
 ### Create a Personal Access Token
