@@ -10,7 +10,7 @@
   "dependencies": {
     "@actions/core": "^1.2.4",
     "@actions/github": "^3.0.0",
-    "moment": "^2.26.0"
+    "moment": "^2.29.4"
   },
   "devDependencies": {
     "@zeit/ncc": "^0.20.5",
